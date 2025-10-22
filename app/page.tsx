@@ -6,27 +6,27 @@ export default function Home() {
   const featuredPosts = [
     {
       id: "1",
-      title: "Giới thiệu về JavaScript ES6",
+      title: "Giới thiệu ngôn ngữ lập trình Java",
       excerpt:
-        "Tìm hiểu các tính năng mới của JavaScript ES6 như arrow functions, destructuring, và template literals.",
+        "Tìm hiểu về lịch sử, đặc điểm nổi bật và cách cài đặt Java",
       date: "2024-01-15",
     },
     {
       id: "2",
-      title: "React Hooks - Hướng dẫn toàn diện",
-      excerpt: "Khám phá cách sử dụng React Hooks để quản lý state và side effects trong functional components.",
+      title: "Cấu trúc chương trình Java và kiểu dữ liệu cơ bản",
+      excerpt: "Giải thích hàm main(), các kiểu dữ liệu và quy tắc đặt tên biến",
       date: "2024-01-20",
     },
     {
       id: "3",
-      title: "Next.js 15 - Những tính năng mới",
+      title: "Cấu trúc điều khiển trong Java",
       excerpt: "Tìm hiểu về các cải tiến mới trong Next.js 15 và cách tối ưu hóa ứng dụng web của bạn.",
       date: "2024-01-25",
     },
     {
       id: "4",
-      title: "Tailwind CSS - Styling hiệu quả",
-      excerpt: "Học cách sử dụng Tailwind CSS để tạo giao diện đẹp và responsive một cách nhanh chóng.",
+      title: "Cấu trúc điều khiển trong Java",
+      excerpt: "Cách sử dụng if, switch, for, while với ví dụ thực tế",
       date: "2024-02-01",
     },
   ]

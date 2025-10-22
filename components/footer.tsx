@@ -29,7 +29,6 @@ export function Footer() {
 
         <div className="text-center border-t border-primary-foreground/20 pt-6">
           <p className="text-sm">© 2025 Phạm Phú Sơn. Thiết kế bởi chính tôi.</p>
-          <p className="text-xs text-primary-foreground/70 mt-2">Xây dựng với Next.js • Hosted trên Vercel</p>
         </div>
       </div>
     </footer>
