@@ -17,7 +17,7 @@ export default function About() {
               {/* Sidebar */}
               <div className="md:col-span-1">
                 <div className="bg-card border border-border rounded-lg p-6 sticky top-4">
-                  <div className="w-32 h-32 rounded-full mx-auto mb-4 flex items-center justify-center overflow-hidden border-4 border-accent">
+                  <div className="mx-auto mb-4 flex items-center justify-center overflow-hidden ">
                     <Image
                       src="/images/avatar.jpg"
                       alt="Phạm Phú Sơn"
@@ -43,6 +43,12 @@ export default function About() {
 
               {/* Main Content */}
               <div className="md:col-span-2 space-y-6">
+                <section className="bg-card border border-border rounded-lg p-6">
+                  <p className="text-lg italic text-secondary">
+                    "Tôi tin rằng lập trình không chỉ là viết code, mà là giải quyết vấn đề và tạo ra giá trị cho người
+                    dùng."
+                  </p>
+                </section>
                 <section>
                   <h2 className="text-2xl font-bold text-primary mb-4">Giới Thiệu Cá Nhân</h2>
                   <p className="text-foreground leading-relaxed mb-4">
@@ -80,12 +86,6 @@ export default function About() {
                   </ul>
                 </section>
 
-                <section className="bg-card border border-border rounded-lg p-6">
-                  <p className="text-lg italic text-secondary">
-                    "Tôi tin rằng lập trình không chỉ là viết code, mà là giải quyết vấn đề và tạo ra giá trị cho người
-                    dùng."
-                  </p>
-                </section>
               </div>
             </div>
           </div>

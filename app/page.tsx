@@ -51,13 +51,9 @@ export default function Home() {
             <h1 className="text-4xl md:text-5xl font-bold text-white mb-4 text-balance">
               Xin chào, tôi là Phạm Phú Sơn
             </h1>
-            <p className="text-lg md:text-xl text-gray-100 mb-2">
-              Sinh viên năm cuối ngành Công nghệ Phần mềm tại HUTECH
-            </p>
             <p className="text-base md:text-lg text-gray-200 mb-8">
-              Tôi đam mê lập trình web và đang không ngừng học hỏi, thực hành để trở thành một Full Stack Developer. Tôi
-              thích khám phá các công nghệ mới, xây dựng các ứng dụng web có tính năng hoàn chỉnh và tối ưu trải nghiệm
-              người dùng.
+              "Tôi tin rằng lập trình không chỉ là viết code, mà là giải quyết vấn đề và tạo ra giá trị cho người
+                dùng."
             </p>
             <div className="flex gap-4 justify-center flex-wrap">
               <Link
