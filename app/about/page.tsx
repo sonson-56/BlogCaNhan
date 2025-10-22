@@ -53,7 +53,7 @@ export default function About() {
                 </section>
 
                 <section>
-                  <h2 className="text-2xl font-bold text-primary mb-4">Kỹ Năng Chuyên Môn</h2>
+                  <h2 className="text-2xl font-bold text-primary mb-4">Kỹ Năng</h2>
                   <div className="grid grid-cols-2 gap-4">
                     {["HTML", "CSS", "JavaScript", "Java", "Node.js", "React"].map((skill) => (
                       <div key={skill} className="bg-card border border-border rounded-lg p-3 text-center">
